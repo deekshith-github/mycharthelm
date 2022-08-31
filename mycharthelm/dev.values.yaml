@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: kottedeek/k8deployment:latest
-  pullPolicy: IfNotPresent
+  repository: nodejscn/node:latest
+  pullPolicy: always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
